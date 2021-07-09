@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Js Counter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="centerDiv">
+            <h1 id="head">Counter</h1>
+            <h1 id="number">0</h1>
+            <div>
+                <button id="add">Add Count</button>
+                <button id="sub">Lower Count</button>
+            </div>
+        </div>
+        <script>
+            let increament = document.getElementById('add')
+            let decreament = document.getElementById('sub')
+            let num = document.getElementById('number')
+            let int = 0
+            increament.addEventListener('click', function(){
+                if(int <50){
+                    int+=1
+                    num.innerHTML = int
+                }else{
+                    num.innerHTML = '50'
+                }
+                
+            })
+
+            decreament.addEventListener('click', function(){
+                if(int > 0){
+                    int-=1
+                    num.innerHTML = int
+                }else{
+                    num.innerHTML = '0'
+                }
+                
+            })
+            
+            
+        </script>
+    </body>
+</html>

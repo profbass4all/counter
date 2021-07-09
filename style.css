@@ -1,0 +1,48 @@
+body{
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#centerDiv{
+    background-image: url('images/bg.j');
+    margin: 10px auto 0;
+    width: 40%;
+    border-radius: 5px;
+    height: 90vh;
+    box-shadow: 0 12px 24px 0 black;
+    border: 3px solid white;
+}
+#head{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30px;
+   
+}
+#number{
+    font-size: 150px;
+    color:rgb(59, 143, 59);
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+button{
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.6);
+    background-color: rgb(89, 89, 209);
+    display: block;
+    width: 15em;
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 15px;
+    color: white;
+    font-size: 28px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    outline: none;
+    border: none;
+}
+button:hover{
+    background-color: sienna;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
